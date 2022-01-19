@@ -42,18 +42,18 @@ body {
     margin: 10px 80px;
 }
 
+.tarjeta {
+    border-radius: 20px;
+    margin: 10px;
+}
+
 .tarjeta-img {
     height: 4rem;
     width: 4rem;
     margin: 2rem;
 }
 
-.caja {
-    border-radius: 20px;
-    margin: 16px;
-}
-
-.caja:hover {
+.tarjeta:hover {
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
