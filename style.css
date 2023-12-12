@@ -11,9 +11,13 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #ffffff;
     text-align: center;
     margin-top: 40px;
+    height: 90dvh;
 }
 
 body h1 {
@@ -25,6 +29,9 @@ body h1 {
 h3 {
     color: black;
     text-align: center;
+}
+footer {
+    align-content: end;
 }
 
 footer a {
@@ -59,8 +66,7 @@ footer a {
     align-content: start;
     gap: 20px;
     width: 80vw;
-    margin: auto;
-    height: 100dvh;
+    margin: 0 auto;
 }
 
 .container-item {
@@ -92,7 +98,7 @@ footer a {
 .container-item:hover {
     cursor: pointer;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .container-dark {
